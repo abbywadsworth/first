@@ -1,0 +1,60 @@
+    1  git status
+    3  git --version command
+    4  git config user.name "Abby Wadsworth"
+    5  git config --list
+    9  git init
+   16  git status
+   18  git status
+   22  git status
+   24  git add
+   25  git add .
+   26  git status
+   27  git commit -m 'create class files'
+   28  git status
+   30  git status
+   31  git add statistics.txt 
+   32  git commit -m 'add statistics class curriculum'
+   33  git add statistics.txt 
+   34  git status
+   35  git status
+   36  git add statistics.txt 
+   37  git status
+   38  git commit -m 'add statistics class curriculum'
+   39  git add history.txt 
+   40  git commit -m 'add history class curriculum'
+   41  git add history.txt statistics.txt 
+   42  git status
+   43  git commit -m 'updating all curriculum'
+   50  git add .gitignore 
+   51  git commit -m 
+   52  git commit -m 'gitignore'
+   55  git status
+   56  git branch music
+   58  git switch music
+   59  git status
+   60  git log
+   63  git add music.txt +
+   64  git add music.txt
+   65  git status
+   66  git commit -m 'add empty music file'
+   67  git add music.txt 
+   68  git status
+   69  git commit -m 'updating music curriculum'
+   70  git switch -c orchestra
+   71  git status
+   73  git add euphonium.txt 
+   74  git commit -m 'updating euphonium'
+   75  git switch music
+   76  git merge orchestra 
+   77  git status
+   78  git branch -d orchestra 
+   79  git log
+   80  git switch main
+   81  git status
+   82  git merge music 
+   83  git branch -d music
+   95  git remote add origit <git@github.com:abbywadsworth/first.git>
+   96  git remote add origin <git@github.com:abbywadsworth/first.git>
+   97  git remote add origin git@github.com:abbywadsworth/first.git
+   99  git push -u origin main
+  101  history | grep "git " > git_commands.txt
